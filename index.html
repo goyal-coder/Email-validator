@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- SEO Meta Tags -->
+        <meta name="description"
+            content="E-Validate - A simple and aesthetic tool to check if an email address exists.">
+        <meta name="keywords" content="email validator, email checker, email verification, email existence check">
+        <meta name="author" content="Your Name">
+
+        <!-- Open Graph (OG) Meta Tags for Social Media -->
+        <meta property="og:title" content="E-Validate - Email Existence Checker">
+        <meta property="og:description"
+            content="Enter an email and check if it exists with our sleek and easy-to-use tool.">
+        <meta property="og:type" content="website">
+
+        <!-- Twitter Card for better sharing -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="E-Validate - Email Checker">
+        <meta name="twitter:description" content="Quickly check if an email exists with our aesthetic and smooth UI.">
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/png" href="favicon.png">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="style.css">
+
+        <title>E-Validate </title>
+    </head>
+
+    <body>
+
+        <header>
+            <nav>
+                <h1><span class="e">E-</span><span class="second">Validate</span></h1>
+                <ul>
+                    <li><a href="home">Home</a></li>
+                    <li><a href="home">About</a></li>
+                    <li><a href="home">How it works</a></li>
+                    <li><a href="home">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="home">
+            <div class="container">
+                <h1>Enter the email you want to verify:</h1>
+
+                <form method="POST">
+                    <div class="e-box">
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" placeholder="Email Address" required>
+                        <br>
+                        <br>
+                        <hr>
+                    </div>
+                    <div class="pass-box">
+                        <label for="password">Passowrd:</label>
+
+                        <input type="password" name="password" id="password" placeholder="Password" required>
+                        <br>
+                        <br>
+                        <hr>
+                    </div>
+                    <h3>Gender:</h3>
+                    <div class="gen-box">
+
+                        <label for="female">Female</label>
+                        <input type="radio" name="gender" id="female">
+                        <label for="male">Male</label>
+                        <input type="radio" name="male" id="male">
+                        <br>
+                        <br>
+                        <hr>
+                    </div>
+                    <br>
+                    <button type="submit">Check</button>
+                </form>
+            </div>
+        </section>
+        <footer>
+
+            <p>&copy; 2025 E-Validate. All rights reserved.</p>
+
+        </footer>
+        <!-- Custom JS -->
+        <script src="script.js"></script>
+    </body>
+
+</html>
